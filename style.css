@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    background-image: url(image/natural.jpg);
+    background-repeat: no-repeat();
+    background-size: cover;
+    position: relative;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    text-align: center;
+    margin-top:3% ;
+}
+.boxcontain{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainbox{
+    width:89%;
+    height: 880px;
+    border: 2px solid grey;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+.boxes{
+    border: 2px solid gray;
+    width: 310px;
+    height: 400px;
+    margin: 4%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.boxes:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+.cbtn:hover{
+    background-color: gray;
+    color: aliceblue;
+}
+.box1{
+    background-color: aliceblue;
+   
+}
+.python{
+    width:310px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.para1{
+    width:310px;
+    height: 150px;
+
+}
+.readbtn1{
+    width: 310px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.btn1{
+    width: 135px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+}
+.box2{
+    background-color: aliceblue;
+   
+}
+.android{
+    width:310px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.para2{
+    width:310px;
+    height: 150px;
+
+}
+.readbtn2{
+    width: 310px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.btn2{
+    width: 135px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+}
+.box3{
+    background-color: aliceblue;
+   
+}
+.php{
+    width:310px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.para3{
+    width:310px;
+    height: 150px;
+
+}
+.readbtn3{
+    width: 310px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.btn3{
+    width: 135px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+}
+.box4{
+    background-color: aliceblue;
+   
+}
+.sql{
+    width:310px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.para4{
+    width:310px;
+    height: 150px;
+
+}
+.readbtn4{
+    width: 310px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.btn4{
+    width: 135px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+}
+.box5{
+    background-color: aliceblue;
+   
+}
+.book{
+    width:310px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.para5{
+    width:310px;
+    height: 150px;
+
+}
+.readbtn5{
+    width: 310px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.btn5{
+    width: 135px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+}
+.box6{
+    background-color: aliceblue;
+   
+}
+.c-sharp{
+    width:310px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.para6{
+    width:310px;
+    height: 150px;
+
+}
+.readbtn6{
+    width: 310px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.btn6{
+    width: 135px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+}
+.box7{
+    background-color: aliceblue;
+   
+}
+.html{
+    width:310px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.para7{
+    width:310px;
+    height: 150px;
+
+}
+.readbtn7{
+    width: 310px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.btn7{
+    width: 135px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+}
+.box8{
+    background-color: aliceblue;
+   
+}
+.css{
+    width:310px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.para8{
+    width:310px;
+    height: 150px;
+
+}
+.readbtn8{
+    width: 310px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.btn8{
+    width: 135px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+}
+@media(max-width:900px){
+    body{
+        background-image: url(image/natural.jpg);
+        background-repeat: no-repeat();
+        background-size: cover;
+        position: relative;
+    }
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+    .header{
+        text-align: center;
+    }
+   
+    .mainbox{
+    width:100%;
+    height: 100%;
+    border: 2px solid grey;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+}
